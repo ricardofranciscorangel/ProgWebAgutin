@@ -34,32 +34,32 @@ body {
   padding: 10px;
 }
 
-.header {
+header {
   grid-area: header;
   background-color: #df5c53;
   justify-content: left;
   display: flex;
 }
 
-.navigation {
+nav{
   margin: auto 0px auto auto;
   background-color: #eafa73;
   width: 15rem;
 }
 
-.aside {
+aside {
   grid-area: aside;
   background-color: #13b6c5;
 }
 
-.main {
+main {
   grid-area: main;
   background-color: #3993DD;
   height: 100%;
   padding: 10px;
 }
 
-.article {
+article {
   background-color: #44CF6C;
   margin: 10px;
   height: 30rem;
@@ -73,7 +73,7 @@ body {
   height: 27%;
 }
 
-.section {
+section {
   background-color: #A9FDAC;
   margin: 10px;
   height: 7rem;
@@ -88,7 +88,7 @@ body {
   background-color: #E0ACD5;
 }
 
-.footer {
+footer {
   grid-area: footer;
   background-color: #E0ACD5;
 }
